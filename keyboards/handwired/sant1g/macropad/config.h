@@ -1,0 +1,13 @@
+#pragma once
+
+#define I2C1_SCL_PIN        GP27
+#define I2C1_SDA_PIN        GP26
+#define I2C_DRIVER I2CD1
+
+#define ENCODER_A_PINS { GP6 }
+#define ENCODER_B_PINS { GP7 }
+#define ENCODER_DIRECTION_FLIP
+#define ENCODER_RESOLUTION 3
+
+#define OLED_TIMEOUT 120000
+#define OLED_BRIGHTNESS 127
